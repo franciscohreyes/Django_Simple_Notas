@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block container_form_note %}
+<form class="col s12">
+    <div class="row">
+        <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">First Name</label>
+        </div>
+        <div class="input-field col s6">
+            <i class="material-icons prefix">phone</i>
+            <input id="icon_telephone" type="tel" class="validate">
+            <label for="icon_telephone">Telephone</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">First Name</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">First Name</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <label for="birthdate">Birthdate</label>
+            <input id="birthdate" type="text" class="datepicker">
+        </div>
+    </div>
+    <button class="btn-large waves-effect waves-light btn" type="submit">Guardar</button>
+    <a class="btn-large waves-effect waves-light red" href="#">Cancelar</a>
+</form>
+{% endblock %}
